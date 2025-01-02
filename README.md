@@ -1,6 +1,7 @@
 Instalace projektu:
     Pro klonovani projektu: git clone https://github.com/StanQ1/travel-app-max-seminar.git
     Pak: "composer install", pro instalaze zavisloty
+    A nakonec: "cp .env.example .env" pro vytvareni enviroment soubouru
 
 Po instalace projektu do slozky napiste do terminalu dalsi prukazy:
     php artisan key:generate
