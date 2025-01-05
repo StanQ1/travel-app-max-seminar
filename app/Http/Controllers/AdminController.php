@@ -20,7 +20,7 @@ class AdminController extends Controller
             return redirect()->route('admin.index');
         }
 
-        return redirect()->back()->with('error', 'Невірне ім’я користувача або пароль');
+        return redirect()->back()->with('error', 'Nejsi tam, kde mel bys byt!');
     }
 
     public function logout()
